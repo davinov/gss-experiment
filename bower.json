@@ -1,0 +1,21 @@
+{
+  "name": "gss-experiment",
+  "version": "0.0.0",
+  "homepage": "https://github.com/davinov/gss-experiment",
+  "authors": [
+    "David Nowinsky <david@nowinsky.net>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gss": "~1.0.4-beta"
+  }
+}
