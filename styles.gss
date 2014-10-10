@@ -1,0 +1,20 @@
+#login-box[center-x] == ::window[center-x];
+#login-box[center-y] == ::window[center-y];
+#login-box[width] == ::window[width] / 3;
+#login-box[height] == ::window[height] / 3;
+
+#login-box {
+  background-color: blue;
+  #login[height] == #password[height];
+  #login[width] == #password[width];
+  #login[height] == 20;
+  #login[width] == ::this[width] * 0.8;
+  @vertical |-[#login]-[#password]-|;
+  @horizontal |-[#login]-|;
+  @h |-[#password]-|;
+}
+
+#login, #password {
+  background-color: white;
+  text-align: center;
+}
